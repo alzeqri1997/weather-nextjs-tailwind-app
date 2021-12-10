@@ -1,7 +1,6 @@
 import Image from 'next/image';
 
 export default function MetricsCard({ title, iconSrc, metric, unit }) {
-  console.log(iconSrc);
   return (
     <div className="rounded-lg flex flex-auto p-4 bg-gray-100">
       <Image alt="weatherIcon" width="70px" height="70px" src={iconSrc} />
